@@ -110,14 +110,16 @@ body{
   transition-delay: 1s;
 }
 
-@media screen and (max-width: 760px){
-  .container {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-  }
-}
 .flap > .heart {
   transform: rotate(90deg);
   transition-delay: 0.4s;
+}
+
+
+@media screen and (max-width: 760px){
+  .container {
+    height: 90vh;
+    display: grid;
+    place-items: center;
+  }
 }
